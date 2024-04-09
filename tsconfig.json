@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "app/src",
+    "outDir": "app/dist/js",   /* Specify an output folder for all emitted files. */
+    "target": "ES6",         /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "removeComments": true,    /* Disable emitting comments. */
+    "importHelpers": true,   /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
+    "noEmitOnError": true,  /* Disable emitting files if any type checking errors are reported. */
+    "esModuleInterop": true,  /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "noImplicitAny": true,  /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false, /* When type checking, take into account 'null' and 'undefined'. */
+    "sourceMap": false,      /* Create source map files for emitted JavaScript files. */
+    
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+  },
+  "include": ["app/src/**/*"]
+}
